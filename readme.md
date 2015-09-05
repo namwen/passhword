@@ -15,6 +15,18 @@ Also this isn't great code or anything, I wrote it in like 2 hours while watchin
 7. Write a better install/setup script
 8. Add update option
 
+##SETUP
+If you want to do something more permanent than this, go for it, this is good enough for me. 
+```	
+	$ git clone
+	$ chmod 700 app.py
+	$ chmod 700 init.sh
+	$ python setup.py
+	$ ./init.sh #this is optional, see the instructions in the init.sh file itself for an example
+	$ vim ~/.bashrc and add alias passhword='python /path/to/passhword.py'
+	$ source ~/.bashrc
+```	
+
 ##USAGE
 ```
 	-c	create, no argument
@@ -45,15 +57,3 @@ Delete your password for linkedin bc you're not a pleb:
 ```
 	$ passhword -d linkedin
 ```
-
-##SETUP
-If you want to do something more permanent than this, go for it, this is good enough for me. 
-```	
-	$ git clone
-	$ chmod 700 app.py
-	$ chmod 700 init.sh
-	$ python setup.py
-	$ ./init.sh #this is optional, see the instructions in the init.sh file itself for an example
-	$ vim ~/.bashrc and add alias passhword='python /path/to/passhword.py'
-	$ source ~/.bashrc
-```	
