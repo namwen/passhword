@@ -19,8 +19,8 @@ Also this isn't great code or anything, I wrote it in like 2 hours while watchin
 ##SETUP
 If you want to do something more permanent than this, go for it, this is good enough for me. 
 ```	
-	$ git clone
-	$ chmod 700 app.py
+	$ git clone https://github.com/g-szabo/passhword.git
+	$ chmod 700 passhword.py
 	$ chmod 700 init.sh
 	$ python setup.py
 	$ ./init.sh #this is optional, see the instructions in the init.sh file itself for an example
