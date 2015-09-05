@@ -57,3 +57,6 @@ Delete your password for linkedin bc you're not a pleb:
 ```
 	$ passhword -d linkedin
 ```
+
+##CAVEATS
+Be careful with special characters. You definitely have escape '$' by putting a '\' in front of it, but if you're using a terminal based password manager you probably know that already.
