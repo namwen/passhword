@@ -47,7 +47,8 @@ Delete your password for linkedin bc you're not a pleb:
 ```
 
 ##SETUP
-If you want to do something more permanent than this, go for it, this is good enough for me. 	
+If you want to do something more permanent than this, go for it, this is good enough for me. 
+```	
 	$ git clone
 	$ chmod 700 app.py
 	$ chmod 700 init.sh
@@ -55,4 +56,4 @@ If you want to do something more permanent than this, go for it, this is good en
 	$ ./init.sh #this is optional, see the instructions in the init.sh file itself for an example
 	$ vim ~/.bashrc and add alias passhword='python /path/to/passhword.py'
 	$ source ~/.bashrc
-	
+```	
