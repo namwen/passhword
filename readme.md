@@ -14,6 +14,7 @@ Also this isn't great code or anything, I wrote it in like 2 hours while watchin
 6. Better constraints for arguments
 7. Write a better install/setup script
 8. Add update option
+9. Escape all '$' characters to store them right
 
 ##SETUP
 If you want to do something more permanent than this, go for it, this is good enough for me. 
